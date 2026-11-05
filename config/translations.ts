@@ -174,7 +174,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       close: "બંધ કરો",
     },
     venue: {
-      sectionNum: "ભાગ ૦૪",
+      sectionNum: "ભાગ ૦૩",
       title: "શુભ સ્થળ",
       subtitle: "વિશ્વ ઉમિયાધામ પરિસર • અમદાવાદ",
       directionsBtn: "ગૂગલ મેપ્સ પર દિશા જુઓ",
@@ -185,7 +185,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       parkingNote: "વિશાળ વાહન પાર્કિંગ વ્યવસ્થા ઉપલબ્ધ",
     },
     countdown: {
-      sectionNum: "ભાગ ૦૫",
+      sectionNum: "ભાગ ૦૪",
       title: "શુભ ઘડીની પ્રતીક્ષા",
       subtitle: "નવા જીવનના સોનેરી પ્રારંભ સુધીની સમયગણના",
       days: "દિવસ",
@@ -296,7 +296,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       close: "Close",
     },
     venue: {
-      sectionNum: "SECTION 04",
+      sectionNum: "SECTION 03",
       title: "The Venue",
       subtitle: "Vishv Umiyadham • Ahmedabad, Gujarat",
       directionsBtn: "Get Directions on Google Maps",
@@ -307,7 +307,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       parkingNote: "Extensive guest parking & convenient access",
     },
     countdown: {
-      sectionNum: "SECTION 05",
+      sectionNum: "SECTION 04",
       title: "The Auspicious Countdown",
       subtitle: "Counting down every sacred moment until the divine celebration",
       days: "Days",

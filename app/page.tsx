@@ -7,7 +7,6 @@ import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Invitation } from "@/components/Invitation";
 import { WeddingEvent } from "@/components/WeddingEvent";
-import { CoupleGallery } from "@/components/CoupleGallery";
 import { Venue } from "@/components/Venue";
 import { Countdown } from "@/components/Countdown";
 import { Footer } from "@/components/Footer";
@@ -64,13 +63,10 @@ export default function Home() {
       {/* Section 03: Wedding Celebration */}
       <WeddingEvent lang={lang} />
 
-      {/* Section 04: Cherished Moments Gallery */}
-      <CoupleGallery lang={lang} />
-
-      {/* Section 05: Venue */}
+      {/* Section 04: Venue */}
       <Venue lang={lang} />
 
-      {/* Section 06: Countdown */}
+      {/* Section 05: Countdown */}
       <Countdown lang={lang} />
 
       {/* Section 06: Closing & Footer */}
