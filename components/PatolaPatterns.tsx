@@ -380,7 +380,7 @@ export const AuspiciousKalash: React.FC<PatternProps> = ({
 );
 
 /**
- * Bespoke Wedding Monogram: Harshni & Denish (હ & ડ / H & D)
+ * Bespoke Wedding Monogram: Harshini & Denis (હ & ડ / H & D)
  */
 export const WeddingMonogram: React.FC<{
   className?: string;
@@ -392,7 +392,7 @@ export const WeddingMonogram: React.FC<{
   return (
     <div
       className={`relative flex items-center justify-center select-none ${dims} ${className}`}
-      aria-label="Harshni and Denish Wedding Monogram"
+      aria-label="Harshini and Denis Wedding Monogram"
     >
       <svg
         viewBox="0 0 160 160"

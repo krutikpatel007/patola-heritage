@@ -8,7 +8,7 @@
 
 ## 🌸 Overview
 
-**PATOLA HERITAGE** is a bespoke, cinematic, mobile-first Gujarati digital wedding invitation crafted for **ચિ. હર્ષની (Chi. Harshni)** and **ચિ. ડેનિશ (Chi. Denish)** celebrating their sacred union at **Vishv Umiyadham, Ahmedabad, Gujarat** on **26 November 2026**.
+**PATOLA HERITAGE** is a bespoke, cinematic, mobile-first Gujarati digital wedding invitation crafted for **ચિ. હર્ષની (Chi. Harshini)** and **ચિ. ડેનિશ (Chi. Denis)** celebrating their sacred union at **Vishv Umiyadham, Ahmedabad, Gujarat** on **26 November 2026**.
 
 The design embodies:
 - **70% Contemporary Luxury**: Clean editorial typography, generous whitespace, smooth cinematic reveals, and responsive interactions.

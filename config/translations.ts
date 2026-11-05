@@ -327,7 +327,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       farewellMessage:
         "Your presence will make our celebration truly complete and unforgettable.",
       warmRegards: "With Warmest Regards,",
-      familySignoff: "Harshni & Denish Families",
+      familySignoff: "Harshini & Denis Families",
       patolaHeritageCrafted: "Inspired by the Royal Double-Ikat Patola Heritage of Gujarat",
       backToTop: "Return to Top",
     },

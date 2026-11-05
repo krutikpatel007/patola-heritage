@@ -19,7 +19,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
   // Generate dynamic .ics calendar file for guests
   const handleAddToCalendar = () => {
     const title = `${couple.bride.nameGu} & ${couple.groom.nameGu} - શુભ વિવાહ (Wedding Celebration)`;
-    const description = `With the blessings of our elders and the love of our families, we warmly invite you to celebrate the auspicious wedding ceremony of Harshni & Denish.\nVenue: ${venue.nameGu}, ${venue.cityGu}`;
+    const description = `With the blessings of our elders and the love of our families, we warmly invite you to celebrate the auspicious wedding ceremony of Harshini & Denis.\nVenue: ${venue.nameGu}, ${venue.cityGu}`;
     const location = `${venue.nameEn}, ${venue.landmarkEn}, ${venue.cityEn}, ${venue.stateEn}`;
     // 26 Nov 2026 15:00 IST is 09:30 UTC
     const icsData = [
@@ -42,7 +42,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
     const blob = new Blob([icsData], { type: "text/calendar;charset=utf-8" });
     const link = document.createElement("a");
     link.href = window.URL.createObjectURL(blob);
-    link.setAttribute("download", "Harshni_Denish_Wedding.ics");
+    link.setAttribute("download", "Harshini_Denis_Wedding.ics");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -4,16 +4,16 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "PATOLA HERITAGE | શુભ વિવાહ - ચિ. હર્ષની & ચિ. ડેનિશ",
   description:
-    "A cinematic Gujarati wedding invitation for Chi. Harshni and Chi. Denish. 26 November 2026, Vishv Umiyadham, Ahmedabad, Gujarat.",
+    "A cinematic Gujarati wedding invitation for Chi. Harshini and Chi. Denis. 26 November 2026, Vishv Umiyadham, Ahmedabad, Gujarat.",
   keywords: [
     "Patola Heritage",
     "Gujarati Wedding",
-    "Harshni and Denish",
+    "Harshini and Denis",
     "Wedding Invitation",
     "Ahmedabad",
     "Vishv Umiyadham",
   ],
-  authors: [{ name: "Harshni & Denish Families" }],
+  authors: [{ name: "Harshini & Denis Families" }],
   openGraph: {
     title: "PATOLA HERITAGE | ચિ. હર્ષની સંગે ચિ. ડેનિશ",
     description:

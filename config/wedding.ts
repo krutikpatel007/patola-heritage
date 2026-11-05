@@ -61,7 +61,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
       titleGu: "ચિ.",
       nameGu: "હર્ષની",
       titleEn: "Chi.",
-      nameEn: "Harshni",
+      nameEn: "Harshini",
       initial: "H",
       initialGu: "હ",
     },
@@ -69,7 +69,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
       titleGu: "ચિ.",
       nameGu: "ડેનિશ",
       titleEn: "Chi.",
-      nameEn: "Denish",
+      nameEn: "Denis",
       initial: "D",
       initialGu: "ડ",
     },
@@ -107,7 +107,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
     rsvpPhone: "919876543210",
     rsvpWhatsappText: {
       gu: "નમસ્તે, હું ચિ. હર્ષની અને ચિ. ડેનિશના લગ્ન મહોત્સવ માટે RSVP નોંધાવું છું.",
-      en: "Namaste, I would like to RSVP for Harshni & Denish's Wedding Celebration.",
+      en: "Namaste, I would like to RSVP for Harshini & Denis's Wedding Celebration.",
     },
   },
 };
