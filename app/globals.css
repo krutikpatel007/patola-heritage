@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700&family=Noto+Sans+Gujarati:wght@300;400;500;600;700&family=Noto+Serif+Gujarati:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #F5EFE3;
+  --color-ivory-light: #FAF6EE;
+  --color-wine: #702C35;
+  --color-wine-dark: #421A20;
+  --color-wine-deep: #280E13;
+  --color-wine-light: #8E3945;
+  --color-green: #243E35;
+  --color-green-light: #335549;
+  --color-green-dark: #182B24;
+  --color-gold: #C19A59;
+  --color-gold-light: #DFBD7A;
+  --color-gold-dark: #8F6E36;
+  --color-indigo: #263D59;
+  --color-indigo-dark: #1A2A3E;
+  --color-sand: #E6D9C3;
+  --color-sand-light: #EFE6D5;
+  --color-charcoal: #2C2623;
+  --color-muted: #6B5E55;
+
+  --font-serif-en: 'Cormorant Garamond', Georgia, serif;
+  --font-sans-en: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif-gu: 'Noto Serif Gujarati', 'Cormorant Garamond', Georgia, serif;
+  --font-sans-gu: 'Noto Sans Gujarati', 'Manrope', sans-serif;
+}
+
+:root {
+  --ivory: #F5EFE3;
+  --ivory-light: #FAF6EE;
+  --wine: #702C35;
+  --wine-dark: #421A20;
+  --wine-deep: #280E13;
+  --wine-light: #8E3945;
+  --green: #243E35;
+  --gold: #C19A59;
+  --gold-light: #DFBD7A;
+  --gold-dark: #8F6E36;
+  --indigo: #263D59;
+  --sand: #E6D9C3;
+  --charcoal: #2C2623;
+  --muted: #6B5E55;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F5EFE3;
+  color: #2C2623;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gujarati language typography optimization */
+html[lang="gu"] {
+  font-family: 'Noto Sans Gujarati', 'Manrope', sans-serif;
+}
+
+.font-heading-en {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-body-en {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-heading-gu {
+  font-family: 'Noto Serif Gujarati', 'Cormorant Garamond', serif;
+  line-height: 1.4;
+}
+
+.font-body-gu {
+  font-family: 'Noto Sans Gujarati', 'Manrope', sans-serif;
+  line-height: 1.7;
+}
+
+/* Subtle Patola textile woven texture */
+.patola-texture {
+  background-image: radial-gradient(rgba(193, 154, 89, 0.08) 1px, transparent 1px),
+                    radial-gradient(rgba(112, 44, 53, 0.04) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.patola-dark-texture {
+  background-image: radial-gradient(rgba(193, 154, 89, 0.12) 1px, transparent 1px),
+                    radial-gradient(rgba(223, 189, 122, 0.06) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Metallic antique gold gradient text */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #DFBD7A 0%, #C19A59 40%, #E8CE93 70%, #96743A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Metallic antique gold border */
+.gold-border {
+  border-color: #C19A59;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, rgba(193, 154, 89, 0.1), #C19A59, rgba(223, 189, 122, 0.8), #C19A59, rgba(193, 154, 89, 0.1)) 1;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5EFE3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C19A59;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #702C35;
+}
+
+/* Luxury button glow & hover */
+.luxury-btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.7s ease;
+}
+
+.luxury-btn:hover::after {
+  left: 100%;
+}
+
+/* Custom corner decors */
+.patola-corner-tl {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  border-top: 2px solid #C19A59;
+  border-left: 2px solid #C19A59;
+}
+
+.patola-corner-tr {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  border-top: 2px solid #C19A59;
+  border-right: 2px solid #C19A59;
+}
+
+.patola-corner-bl {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  border-bottom: 2px solid #C19A59;
+  border-left: 2px solid #C19A59;
+}
+
+.patola-corner-br {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  border-bottom: 2px solid #C19A59;
+  border-right: 2px solid #C19A59;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
