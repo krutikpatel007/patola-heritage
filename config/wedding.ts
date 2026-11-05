@@ -60,7 +60,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
     bride: {
       titleGu: "ચિ.",
       nameGu: "હર્ષની",
-      titleEn: "Chi.",
+      titleEn: "",
       nameEn: "Harshini",
       initial: "H",
       initialGu: "હ",
@@ -68,7 +68,7 @@ export const WEDDING_CONFIG: WeddingConfig = {
     groom: {
       titleGu: "ચિ.",
       nameGu: "ડેનિશ",
-      titleEn: "Chi.",
+      titleEn: "",
       nameEn: "Denis",
       initial: "D",
       initialGu: "ડ",

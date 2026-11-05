@@ -111,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
           <h1 className="flex flex-col items-center justify-center">
             {/* Bride */}
             <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-heading-gu font-bold text-[#702C35] tracking-tight drop-shadow-sm">
-              {lang === "gu" ? `${couple.bride.titleGu} ${couple.bride.nameGu}` : `${couple.bride.titleEn} ${couple.bride.nameEn}`}
+              {lang === "gu" ? `${couple.bride.titleGu} ${couple.bride.nameGu}` : couple.bride.nameEn}
             </span>
 
             {/* WITH ornament */}
@@ -123,7 +123,7 @@ export const Hero: React.FC<HeroProps> = ({ lang }) => {
 
             {/* Groom */}
             <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-heading-gu font-bold text-[#702C35] tracking-tight drop-shadow-sm">
-              {lang === "gu" ? `${couple.groom.titleGu} ${couple.groom.nameGu}` : `${couple.groom.titleEn} ${couple.groom.nameEn}`}
+              {lang === "gu" ? `${couple.groom.titleGu} ${couple.groom.nameGu}` : couple.groom.nameEn}
             </span>
           </h1>
 

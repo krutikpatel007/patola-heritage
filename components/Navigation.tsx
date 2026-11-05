@@ -33,6 +33,7 @@ export const Navigation: React.FC<NavigationProps> = ({
   const navLinks = [
     { href: "#shubh-lagna", label: t.nav.invitation },
     { href: "#ceremony", label: t.nav.ceremony },
+    { href: "#gallery", label: t.nav.gallery },
     { href: "#venue", label: t.nav.venue },
     { href: "#countdown", label: t.nav.countdown },
   ];

@@ -234,7 +234,7 @@ export const IntroAnimation: React.FC<IntroAnimationProps> = ({
                     <div className="absolute top-3 left-3 w-1.5 h-1.5 rounded-full bg-[#DFBD7A]" />
                     <div className="absolute bottom-3 left-3 w-1.5 h-1.5 rounded-full bg-[#DFBD7A]" />
                     <span className="mt-4 text-[10px] tracking-widest text-[#E6D9C3]/70 font-serif-en">
-                      {couple.bride.nameGu}
+                      {lang === "gu" ? couple.bride.nameGu : couple.bride.nameEn}
                     </span>
                   </motion.div>
 
@@ -251,7 +251,7 @@ export const IntroAnimation: React.FC<IntroAnimationProps> = ({
                     <div className="absolute top-3 right-3 w-1.5 h-1.5 rounded-full bg-[#DFBD7A]" />
                     <div className="absolute bottom-3 right-3 w-1.5 h-1.5 rounded-full bg-[#DFBD7A]" />
                     <span className="mt-4 text-[10px] tracking-widest text-[#E6D9C3]/70 font-serif-en">
-                      {couple.groom.nameGu}
+                      {lang === "gu" ? couple.groom.nameGu : couple.groom.nameEn}
                     </span>
                   </motion.div>
 
@@ -306,13 +306,13 @@ export const IntroAnimation: React.FC<IntroAnimationProps> = ({
                   className="space-y-1"
                 >
                   <div className="text-3xl md:text-5xl font-heading-gu text-[#DFBD7A] font-bold tracking-wide drop-shadow-md">
-                    {lang === "gu" ? `${couple.bride.titleGu} ${couple.bride.nameGu}` : `${couple.bride.titleEn} ${couple.bride.nameEn}`}
+                    {lang === "gu" ? `${couple.bride.titleGu} ${couple.bride.nameGu}` : couple.bride.nameEn}
                   </div>
                   <div className="text-xs md:text-sm font-serif-en italic tracking-[0.3em] text-[#C19A59] uppercase py-1">
                     {t.intro.withText}
                   </div>
                   <div className="text-3xl md:text-5xl font-heading-gu text-[#DFBD7A] font-bold tracking-wide drop-shadow-md">
-                    {lang === "gu" ? `${couple.groom.titleGu} ${couple.groom.nameGu}` : `${couple.groom.titleEn} ${couple.groom.nameEn}`}
+                    {lang === "gu" ? `${couple.groom.titleGu} ${couple.groom.nameGu}` : couple.groom.nameEn}
                   </div>
                 </motion.div>
               </div>

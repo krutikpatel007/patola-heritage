@@ -14,6 +14,7 @@ export interface Translations {
   nav: {
     invitation: string;
     ceremony: string;
+    gallery: string;
     venue: string;
     countdown: string;
     rsvp: string;
@@ -49,6 +50,13 @@ export interface Translations {
     timeLabel: string;
     venueLabel: string;
     traditionalNote: string;
+  };
+  gallery: {
+    sectionNum: string;
+    title: string;
+    subtitle: string;
+    viewPhoto: string;
+    close: string;
   };
   venue: {
     sectionNum: string;
@@ -118,6 +126,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     nav: {
       invitation: "શુભ લગ્ન",
       ceremony: "વિવાહ મહોત્સવ",
+      gallery: "તસવીરો",
       venue: "સ્થળ દર્શન",
       countdown: "સમયગણના",
       rsvp: "હાજરી નોંધ (RSVP)",
@@ -157,8 +166,15 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       traditionalNote:
         "વેદિક મંત્રોચ્ચાર, મંગલ શરણાઈના સૂર અને પાટોળાની ભવ્ય સંસ્કૃતિ સાથે સંપન્ન થતો પવિત્ર વિવાહ સંસ્કાર.",
     },
-    venue: {
+    gallery: {
       sectionNum: "ભાગ ૦૩",
+      title: "મધુર સ્મૃતિઓ",
+      subtitle: "પ્રેમ અને સાથની અવિસ્મરણીય સોનેરી પળો",
+      viewPhoto: "મોટું ચિત્ર જુઓ",
+      close: "બંધ કરો",
+    },
+    venue: {
+      sectionNum: "ભાગ ૦૪",
       title: "શુભ સ્થળ",
       subtitle: "વિશ્વ ઉમિયાધામ પરિસર • અમદાવાદ",
       directionsBtn: "ગૂગલ મેપ્સ પર દિશા જુઓ",
@@ -169,7 +185,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       parkingNote: "વિશાળ વાહન પાર્કિંગ વ્યવસ્થા ઉપલબ્ધ",
     },
     countdown: {
-      sectionNum: "ભાગ ૦૪",
+      sectionNum: "ભાગ ૦૫",
       title: "શુભ ઘડીની પ્રતીક્ષા",
       subtitle: "નવા જીવનના સોનેરી પ્રારંભ સુધીની સમયગણના",
       days: "દિવસ",
@@ -232,6 +248,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     nav: {
       invitation: "Invitation",
       ceremony: "Ceremony",
+      gallery: "Moments",
       venue: "Venue",
       countdown: "Countdown",
       rsvp: "RSVP",
@@ -271,8 +288,15 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       traditionalNote:
         "An auspicious union solemnized amidst Vedic chants, soulful shehnai melodies, and the royal heritage of Patola textiles.",
     },
-    venue: {
+    gallery: {
       sectionNum: "SECTION 03",
+      title: "Cherished Moments",
+      subtitle: "A Glimpse into Love, Laughter & Togetherness",
+      viewPhoto: "View Photograph",
+      close: "Close",
+    },
+    venue: {
+      sectionNum: "SECTION 04",
       title: "The Venue",
       subtitle: "Vishv Umiyadham • Ahmedabad, Gujarat",
       directionsBtn: "Get Directions on Google Maps",
@@ -283,7 +307,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
       parkingNote: "Extensive guest parking & convenient access",
     },
     countdown: {
-      sectionNum: "SECTION 04",
+      sectionNum: "SECTION 05",
       title: "The Auspicious Countdown",
       subtitle: "Counting down every sacred moment until the divine celebration",
       days: "Days",
